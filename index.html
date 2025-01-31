@@ -173,7 +173,7 @@
               </ul>
               <a href=""
                 ><button
-                  class="px-8 py-4 bg-[#FFDC26] text-xl font-bold rounded-lg"
+                  class="px-8 py-4 bg-[#FFDC26] text-xl font-semibold rounded-lg"
                 >
                   See More
                 </button></a
@@ -192,7 +192,7 @@
       </section>
 
       <!--Browse by categories-->
-      <section class="w-11/12 mx-auto my-20">
+      <section class="w-11/12 mx-auto mt-20 mb-40">
         <h1 class="text-4xl font-bold mb-12">Browse By Categories</h1>
         <div
           class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 justify-center items-center gap-5"
@@ -261,7 +261,7 @@
       </section>
 
       <!--Trending Pet Products-->
-      <section class="my-20 lg:bg-[#FFF9F4] py-20">
+      <section class="my-40 lg:bg-[#FFF9F4] pt-20 pb-40">
         <div class="w-11/12 mx-auto">
           <h1 class="text-4xl font-bold mb-12">Trending Pet Products</h1>
           <div
@@ -530,7 +530,7 @@
       </section>
 
       <!--Everyday low price-->
-      <section class="w-11/12 mx-auto my-20">
+      <section class="w-11/12 mx-auto mt-40">
         <h1 class="text-4xl font-bold mb-12">Everyday low Price</h1>
         <div
           class="lg:flex justify-between items-stretch gap-5 space-y-5 lg:space-y-0"
@@ -593,11 +593,91 @@
           </div>
         </div>
       </section>
+
+      <!--Awesome News-->
+      <section class="relative top-64 w-11/12 mx-auto bg-[#FFF9F4] rounded-xl">
+        <div class="md:flex justify-center items-center gap-5">
+          <!--left-->
+          <div class="p-20">
+            <img class="w-full" src="./assets/cute-pet-mid.png" alt="" />
+          </div>
+          <!--right-->
+          <div class="">
+            <h1 class="text-4xl font-bold mb-5 text-center md:text-start">
+              Get Pawsome News!
+            </h1>
+            <p class="text-xl mb-9 text-center md:text-start">
+              Exclusive training tips, ticks, product deals and more.
+            </p>
+            <input
+              class="w-[470px] h-[65px] pl-5 mb-9 rounded-lg text-xl block mx-auto md:mx-0"
+              type="text"
+              placeholder="Enter email..."
+            />
+            <br />
+
+            <div class="flex justify-center items-center md:block">
+              <a href=""
+                ><button
+                  class="px-8 py-4 bg-[#FFDC26] text-xl font-semibold rounded-lg mb-20 md:mb-0"
+                >
+                  Subscribe
+                </button></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
     <!--Main End-->
 
     <!--Footer Start-->
-    <footer></footer>
+    <footer class="bg-[rgba(255,220,38,0.50)] pt-96 pb-20">
+      <div class="w-11/12 mx-auto md:flex justify-between items-center">
+        <!--left-->
+        <div>
+          <div class="flex justify-start items-center gap-5 mb-5">
+            <!--logo-->
+            <div>
+              <img src="./assets/logo-footer.png" alt="" />
+            </div>
+            <!--text-->
+            <div>
+              <h1 class="text-3xl font-semibold">
+                Browse<span class="text-[#FFDC26]">4</span>Pets
+              </h1>
+            </div>
+          </div>
+          <p class="text-xl text-[rgba(17,17,17,0.70)]">
+            Discover a world of treats, toys, and <br />
+            essentials handpicked for your furry <br />
+            friends
+          </p>
+        </div>
+
+        <!--Middle-->
+        <div class="mt-10 md:mt-0">
+          <ul>
+            <li class="mb-5">
+              <a class="text-xl font-semibold" href="">Find a pet</a>
+            </li>
+            <li class="mb-5">
+              <a class="text-xl font-semibold" href="">Breeds</a>
+            </li>
+            <li class="mb-5">
+              <a class="text-xl font-semibold" href="">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <!--Right-->
+        <div class="mt-12">
+          <h1 class="font-medium mb-5">Follow Us</h1>
+          <div>
+            <img src="./assets/Social Media.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </footer>
     <!--Footer End-->
   </body>
 </html>
